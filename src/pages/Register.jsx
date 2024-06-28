@@ -11,6 +11,7 @@ export default function Register() {
   }
   return (
   <>
+    <div className='flex justify-center'>
   <div style={{marginTop: "20vh"}}>
   <Card className="m-5 mt-[200px] h-full" variant="outlined">
       <h1 className='text-2xl text-center'>Create Your Free Account</h1>
@@ -30,6 +31,7 @@ export default function Register() {
   <Button variant="contained" className='m-5 w-full' onClick={()=>{Redirect("/forget")}}>Forgot Yout Password ???</Button>
   </div>
   </Card>
+  </div>
   </div>
 </>);
 }

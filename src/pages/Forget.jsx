@@ -11,6 +11,7 @@ export default function Forget() {
   }
   return (
   <>
+    <div className='flex justify-center'>
     
     <div style={{marginTop: "20vh"}}>
     <Card className="m-5 mt-[200px] h-full" variant="outlined">
@@ -28,6 +29,7 @@ export default function Forget() {
     <Button variant="contained" className='m-5 w-full' onClick={()=>{Redirect("/register")}}>Have an account ???</Button>
     </div>
     </Card>
+    </div>
     </div>
   </>
   );
